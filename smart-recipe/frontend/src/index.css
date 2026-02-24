@@ -1,0 +1,97 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background: #f5f6f8;
+  color: #222;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 16px;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Button */
+button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #1b5e20;
+}
+
+/* Card */
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+/* Responsive */
+@media (min-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Input */
+input, select {
+  padding: 8px;
+  margin-top: 6px;
+  margin-right: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Steps */
+ul {
+  margin-top: 6px;
+}
+
+li {
+  margin-left: 14px;
+}
+
+/* Nutrition */
+.nutrition {
+  font-size: 14px;
+  margin-top: 6px;
+  color: #555;
+}
+
+/* Loader */
+.loader {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}

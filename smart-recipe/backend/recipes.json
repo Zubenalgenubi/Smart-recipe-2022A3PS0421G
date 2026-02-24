@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Vegetable Pasta",
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "garlic",
+      "olive oil",
+      "salt"
+    ],
+    "diet": ["vegetarian"],
+    "difficulty": "Easy",
+    "time": 25,
+    "nutrition": {
+      "calories": 350,
+      "protein": 12,
+      "fat": 8,
+      "carbs": 50
+    }
+  },
+  {
+    "name": "Grilled Chicken Salad",
+    "ingredients": [
+      "chicken breast",
+      "lettuce",
+      "olive oil",
+      "salt",
+      "pepper"
+    ],
+    "diet": ["glutenFree"],
+    "difficulty": "Easy",
+    "time": 20,
+    "nutrition": {
+      "calories": 280,
+      "protein": 32,
+      "fat": 10,
+      "carbs": 6
+    }
+  },
+  {
+    "name": "Vegan Stir Fry",
+    "ingredients": [
+      "broccoli",
+      "carrot",
+      "soy sauce",
+      "garlic",
+      "tofu"
+    ],
+    "diet": ["vegan", "dairyFree"],
+    "difficulty": "Medium",
+    "time": 30,
+    "nutrition": {
+      "calories": 220,
+      "protein": 15,
+      "fat": 6,
+      "carbs": 28
+    }
+  }
+]
